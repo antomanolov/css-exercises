@@ -31,6 +31,7 @@ li {
 
 .header {
   display: grid;
+  /* saw it in the solution */
   grid-template-columns: 1fr 2fr;
   /* justify-items:flex-start; */
   background-color: #393f4d;
@@ -50,12 +51,12 @@ li {
 .menu ul{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 80px;
+  
 }
 
 .menu {
   display: grid;
-  /* saw it in the solution */
+  
   align-self: center;
 }
 
